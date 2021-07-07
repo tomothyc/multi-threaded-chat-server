@@ -20,7 +20,7 @@ public class Server
       socket = server.accept();
       System.out.println("Client found");
 
-      in = new DataInputStream(new BufferedInputeStream(socket.getInputStream()));
+      in = new DataInputStream(new BufferedInputStream(socket.getInputStream()));
 
       String line = "";
 
